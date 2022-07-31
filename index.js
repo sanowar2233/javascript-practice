@@ -1,18 +1,18 @@
 Class-1#  30 july 2022
 
-// 1.
+1.
 // var onionPrice = 30;
 // var eggPrice=20;
 // var total= onionPrice + eggPrice;
 // console.log(total)
 
-// 2.
+2.
 // var number1= 34;
 // var number=5;
 // var total=(number1 / number);
 // console.log(total)
 
-// 3.
+3.
 //   var price1 = 45;
 //  price1 = price1 + 20;
 //  console.log(price1)
@@ -97,6 +97,7 @@ Class-1#  30 july 2022
 
 1.
 // var friendAge=[23,45,76,78,3];
+***********************************
 // var man=["mahi", "apu" , "shabnur"];
 // console.log(man);
 
@@ -134,6 +135,16 @@ Class-1#  30 july 2022
 // number.pop();
 // number.pop()
 // console.log(number)
+
+***************
+var number=[34,54,6,78,6];
+number.unshift(100);
+console.log(number)
+
+***********
+var number=[34,43,45,43];
+number.shift();
+console.log(number)
 
 9.
 // console.log(5 < 6)
@@ -243,8 +254,36 @@ Class-1#  30 july 2022
 
 
 
+  
+1.                                                   problem solving*******************
+//var fruit=["apple", "orange", "banana"];
+// fruit.splice(2,1,"mango");
+// console.log(fruit)
+
+2.
+// var firstnumber=13;
+// var secondnumber=79;
+// var thirdnumber=45;
+
+// if(firstnumber>secondnumber){
+//     console.log("first number is large")
+// }else if(thirdnumber>secondnumber){
+//     console.log("third number is large")
+// }else{
+//     console.log("second number is large")
+// }
 
 
 
+3.
+// var num1=9;
+// var num2=8;
+// var num3=9;
 
-
+// if(num1==num2){
+//     console.log("num1 and num2 is equal")
+// }else if(num2==num3){
+//     console.log("num2 and num3 is equal")
+// }else{
+//     console.log("num1 and num3 is equal")
+// }
