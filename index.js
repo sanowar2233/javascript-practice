@@ -381,3 +381,184 @@ var num1=9;
 // for(i=10; i>0; i--){
 //     console.log(i)
 // }
+
+12.
+// var names=["lksjfkl", "lksf"];
+// var i=0;
+// while(i<names.length){
+//     nam=names[i];
+//     console.log(nam);
+//     i++
+    
+// }
+
+13.
+var bookPrice=[120,250,155,123,280,177,999,200];
+for(i=0;i<bookPrice.length;i++){
+    var bp=bookPrice[i];
+    if(bp>200){
+        continue;
+    }
+    console.log(bp)
+}
+
+                                                                     4th class  3 July 2022
+1.
+// function startFan(){
+
+//     console.log("stand up");
+//     console.log("walk");
+//     console.log("press");
+// }
+// startFan();
+
+2.
+// function startFan(){
+
+//         console.log("stand up");
+//         console.log("walk");
+//         console.log("press");
+//     }
+//     startFan();
+//     console.log("eating")
+//     console.log("playing")
+
+3.
+function startFan(money){
+
+//     console.log("stand up");
+//     console.log(money)
+    
+// }
+// startFan(100);
+
+
+4.
+function startFan(money){
+
+//     console.log("stand up");
+//     console.log("eto taka den:",money)
+    
+// }
+// startFan(100);
+
+5.
+
+// function add(num1,num2){
+//     console.log("going to add", num1,num2)
+// }
+// add(123,45);
+
+// function add(a,b,c,d,e){
+//     console.log(a,b,c,d,e);
+//     console.log(a+b+c+d+e)
+// }
+// add(12,34,54,6,7)
+
+6.
+
+function add(num1,num2){
+//     console.log(num1,num2);
+//     var sum=num1+num2
+//     return sum;
+// }
+// var total=add(12,34);
+// console.log(total)
+
+
+
+
+7.
+function getAverage(assignment1, assignment2, assignment3){
+    const total=assignment1+assignment2+assignment3;
+    const average=total/3;
+
+    return average;
+}
+
+assignment1=(60);
+assignment2=(45);
+assignment3=(55);
+var myAverage=getAverage(assignment1,assignment2,assignment3);
+console.log(myAverage)
+
+8.
+function add(num1,num2){
+//     const sum=num1+num2;
+//     return sum;
+// }
+
+// const result1=add(12,13);
+// const result2=add(12,22);
+// const finalResult=add(result1,result2)
+// console.log(finalResult)
+
+9.
+// var student={
+//     id:112,
+//     name:"foysal",
+//     class:9,
+//     marks:97
+
+// }
+// console.log(student)
+
+10.
+// var student={
+//     id:112,
+//     name:"foysal",
+//     class:9,
+//     marks:97
+
+// }
+// console.log(student.class)
+
+11.
+var shoppingcard={
+//     books:3,
+//     pen:2,
+//     keyboard:3,
+//     mouse:1,
+//     khata:3
+// }
+// var pencount=shoppingcard.pen;
+// console.log(pencount)
+// var properties=Object.keys(shoppingcard)
+// console.log(properties)
+// var propertiesValue=Object.values(shoppingcard);
+// console.log(propertiesValue)
+
+14.
+var shoppingcard={
+//     books:3,
+//     pen:2,
+//     keyboard:3,
+//     mouse:1,
+//     khata:3
+// }
+// var propertiespen=shoppingcard["pen"];
+// console.log(propertiespen)
+
+
+15.var shoppingcard={
+//     books:3,
+//     pen:2,
+//     keyboard:3,
+//     mouse:1,
+//     khata:3
+// }
+// shoppingcard.mouse=14;
+// console.log(shoppingcard)
+
+16.
+var shoppingcard={
+//     books:3,
+//     pen:2,
+//     keyboard:3,
+//     mouse:1,
+//     khata:3
+// }
+// for(var propertyName in shoppingcard ){
+//     const value=shoppingcard[propertyName]
+//     console.log(propertyName, value)
+// }
