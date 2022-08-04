@@ -402,7 +402,8 @@ for(i=0;i<bookPrice.length;i++){
     console.log(bp)
 }
 
-                                                                     4th class  3 July 2022
+   
+                                          ** 4th class  3 July 2022**********
 1.
 // function startFan(){
 
@@ -449,6 +450,7 @@ function startFan(money){
 // }
 // add(123,45);
 
+5.1
 // function add(a,b,c,d,e){
 //     console.log(a,b,c,d,e);
 //     console.log(a+b+c+d+e)
@@ -528,7 +530,7 @@ var shoppingcard={
 // var propertiesValue=Object.values(shoppingcard);
 // console.log(propertiesValue)
 
-14.
+12.
 var shoppingcard={
 //     books:3,
 //     pen:2,
@@ -540,7 +542,7 @@ var shoppingcard={
 // console.log(propertiespen)
 
 
-15.var shoppingcard={
+13.var shoppingcard={
 //     books:3,
 //     pen:2,
 //     keyboard:3,
@@ -550,7 +552,7 @@ var shoppingcard={
 // shoppingcard.mouse=14;
 // console.log(shoppingcard)
 
-16.
+14.
 var shoppingcard={
 //     books:3,
 //     pen:2,
@@ -562,3 +564,89 @@ var shoppingcard={
 //     const value=shoppingcard[propertyName]
 //     console.log(propertyName, value)
 // }
+
+
+15.
+const color="white"
+switch(color){
+    case "green":
+        console.log("you green")
+        break;
+        case "red":
+            console.log("you red")
+            break;
+
+            case "blue":
+                console.log("you are blue")
+                break;
+                default:
+                    console.log("black")
+}
+
+
+16****
+
+function getSum(numbers){
+   let sum=0;
+   let avg=0;
+
+   for(var i=0; i<numbers.length; i++){
+      const index=i;
+      // console.log(index)
+      // const element=numbers[i];
+      // console.log(element)
+      const element=numbers[index];
+      sum=sum+element;
+      agv=sum/numbers[i]
+
+    
+   }
+   console.log( sum, avg)
+
+
+###Factorial --------------------------------------------------------------------------------------------------
+
+function multiplication(number){
+   let multi=1;
+   for(i=1; i<=number; i++){
+      multi=multi*i
+   }
+   return multi;
+}
+const multi=multiplication(3)
+console.log(multi)
+
+****************************************************************************************************************
+// function factorial(number){
+//    for(i=number; i>=1 ;i--){
+//       console.log(i)
+//    }
+// }
+// factorial(7)
+
+
+******************************************************************************************
+
+function factorial(number){
+   let result=1;
+      for(i=number; i>=1 ;i--){
+         result=result*i
+         console.log(i)
+      }
+      return result;
+   }
+   const number=6;
+   const fact=factorial(number)
+   console.log(number, fact)
+***********************************************************************************************
+
+// // function sumoffunction(number){
+// //    let sum=0;
+
+// // for(i=0; i<=number; i++){
+// //    sum=sum+i;
+// //    console.log(i,sum);
+// // }
+// // return sum;
+// // }
+// // console.log(sum)
