@@ -56,6 +56,7 @@ Class-1#  30 july 2022
 // var person=2;
 // console.log(mango % person)
 
+
                                                                    Problem Solving
 
 1.
@@ -90,6 +91,8 @@ Class-1#  30 july 2022
 // var num2=5;
 // var total= num1%num2;
 // console.log(total)
+
+##################################################################################################
 
 
 
@@ -338,6 +341,14 @@ var num1=9;
 //     console.log(Number)
 // }
 
+**************************************************
+var number=[23,34,45,67];
+for(i=0;i<4; i++){
+    
+    console.log(i)
+}
+**********************************************
+
 
 7.
 // for(var i =1 ; i<=20; i++){
@@ -584,6 +595,9 @@ switch(color){
 }
 
 
+                                                                                ----  5th class ---
+
+
 16****
 
 function getSum(numbers){
@@ -604,7 +618,9 @@ function getSum(numbers){
    console.log( sum, avg)
 
 
-###Factorial --------------------------------------------------------------------------------------------------
+
+                                                                             
+###Factorial 
 
 function multiplication(number){
    let multi=1;
@@ -650,3 +666,88 @@ function factorial(number){
 // // return sum;
 // // }
 // // console.log(sum)
+
+**************************************************************************************************
+
+function getfactorial(number){
+   let factorial=1;
+   for(let i=1;i<=7;i++){
+      factorial=factorial*i;
+      console.log(i,factorial)
+   }
+   return factorial;
+
+}
+const factorial=getfactorial(6);
+console.log(factorial)
+
+
+****************************************************************************************************
+
+var arr=[2,3,5,6,7];
+function check(a,b){
+    return a+b;
+
+}
+var sum=arr.reduce(check);
+var avg=sum/arr.length;
+console.log(avg)
+
+*****************************************************************************************************
+
+
+                                              ###  6TH Class ##
+___________________________________________________________________________
+____________________________________________________________________________
+
+function cTOf(celcius){
+    var temperature=celcius;
+    var cels=celcius*9/5+32;
+    return cels;
+}
+cTOf(60);
+console.log(cTOf(60))
+___________________________________________________________________________
+
+____________________________________________________________________________
+
+function fTOc(farenheight){
+    var temperature=farenheight;
+    var faren=(temperature-32)*5 /9;
+    return faren;
+
+}
+fTOc(45);
+console.log(fTOc(45))
+
+_____________________________________________________________________________
+
+______________________________________________________________________________
+
+function grade(number){
+    if(number>80){
+        number="A+";
+    }else{
+        number="other grade"
+    }
+    return number;
+}
+grade(77);
+console.log(grade(77))
+__________________________________________________________________________________
+
+__________________________________________________________________________________
+
+function interest(amount){
+    var inrst= amount;
+    var interestAmount=inrst*20/100;
+   
+    var total=amount+interestAmount;
+    
+    return total;
+    
+    
+}
+interest(2000);
+console.log(interest(2000))
+_____________________________________________________________________________________
